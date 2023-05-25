@@ -5,6 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(130, 235, 181);
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;;
+}
+
+input, textarea {
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+textarea {
+  height: 144px;
+  padding: 10px;
+}
+
+.previewContainer {
+  background-color: white;
+  border-radius: 8px;
+  min-width: 40vw;
+  max-width: 40vw;
+  min-height: 60vh;
+  max-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.condensed {
+
 }
 
 code {
